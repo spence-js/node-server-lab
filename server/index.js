@@ -14,4 +14,4 @@ app.listen(PORT, () => {
     console.log(`listening on port ${ PORT }`)
 })
 
-app.get('/test/test', ts.test)
+app.get('/test', ts.test)
